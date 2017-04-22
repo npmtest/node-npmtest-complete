@@ -1,6 +1,6 @@
 # npmtest-complete
 
-#### basic test coverage for  complete (v0.4.4)  [![npm package](https://img.shields.io/npm/v/npmtest-complete.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-complete) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-complete.svg)](https://travis-ci.org/npmtest/node-npmtest-complete)
+#### basic test coverage for  [complete (v0.4.4)](https://github.com/hij1nx/complete)  [![npm package](https://img.shields.io/npm/v/npmtest-complete.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-complete) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-complete.svg)](https://travis-ci.org/npmtest/node-npmtest-complete)
 
 #### tab completion CLI programs
 
@@ -35,21 +35,30 @@
 ```json
 
 {
-    "name": "complete",
-    "version": "0.4.4",
-    "description": "tab completion CLI programs",
-    "main": "./lib/complete.js",
-    "directories": {
-        "lib": "./lib",
-        "example": "./example"
+    "author": {
+        "name": "paolo fragomeni",
+        "url": "http://async.ly"
     },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/hij1nx/complete.git"
+    "bugs": {
+        "url": "https://github.com/hij1nx/complete/issues"
     },
     "dependencies": {
         "optimist": "0.3.5"
     },
+    "description": "tab completion CLI programs",
+    "devDependencies": {},
+    "directories": {
+        "lib": "./lib",
+        "example": "./example"
+    },
+    "dist": {
+        "shasum": "673322e3c286f5738fcc23aa0ca9ba5b93acb630",
+        "tarball": "https://registry.npmjs.org/complete/-/complete-0.4.4.tgz"
+    },
+    "engine": {
+        "node": ">=0.4"
+    },
+    "homepage": "https://github.com/hij1nx/complete",
     "keywords": [
         "terminal",
         "tab",
@@ -58,19 +67,21 @@
         "complete",
         "completion"
     ],
-    "author": {
-        "name": "paolo fragomeni",
-        "url": "http://async.ly"
-    },
+    "license": "MIT",
+    "main": "./lib/complete.js",
     "maintainers": [
         {
-            "name": "paolo fragomeni"
+            "name": "hij1nx"
         }
     ],
-    "license": "MIT",
-    "engine": {
-        "node": ">=0.4"
-    }
+    "name": "complete",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/hij1nx/complete.git"
+    },
+    "version": "0.4.4",
+    "bin": {}
 }
 ```
 
